@@ -26,8 +26,7 @@ function decrement(n) {
 
 function makeInt(n) {
   try {
-    parseInt(n, 10)
-    return n
+    return parseInt(n, 10)
   } catch (error) {
       return NaN
     }
@@ -36,7 +35,7 @@ function makeInt(n) {
 
 function preserveDecimal(n) {
   try {
-    parseFloat(n, 10)
+    return parseFloat(n, 10)
   } catch (error) {
     return NaN
   }
